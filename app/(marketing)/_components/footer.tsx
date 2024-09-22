@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 const Footer = () => {
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col">
-      <div className="flex-grow ">
+      <div className="flex-grow">
         <div className="overflow-hidden">
           <FlickeringGridDemo />
           <main className="flex-grow flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-16">
@@ -23,7 +23,7 @@ const Footer = () => {
                 Ready to discover your next opportunity?
               </h1>
               <p className="text-base md:text-xl text-gray-400 mb-8">
-                The best database of ec's and internship opportunities.
+                The best database of ec&apos;s and internship opportunities.
               </p>
 
               <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
