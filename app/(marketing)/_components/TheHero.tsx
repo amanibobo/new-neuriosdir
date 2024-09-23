@@ -2,8 +2,11 @@ import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 import NavWidthWrapper from '@/components/NavWidthWrapper'
 import Placeholder from "@/public/O1zTTlGI4foOfSbGkHZAiAWI.png";
+import Placeholder2 from "@/public/image28.svg";
+import Placeholder3 from "@/public/image29.svg";
 import { Input } from '@/components/ui/input';
 import { GridBeam } from '@/components/ui/grid-beam';
+import { AvatarCirclesDemo } from './aver';
 
 
 export default function ComponentHed() {
@@ -31,19 +34,13 @@ export default function ComponentHed() {
           </div>
         </div>
 
-        <div className="mt-16 flex justify-between items-center">
-          <Image src="/placeholder.svg?height=30&width=120" alt="University of Cambridge" width={120} height={30} />
-          <Image src="/placeholder.svg?height=30&width=60" alt="Roche" width={60} height={30} />
-          <Image src="/placeholder.svg?height=30&width=80" alt="Caltech" width={80} height={30} />
-          <Image src="/placeholder.svg?height=30&width=120" alt="McKinsey & Company" width={120} height={30} />
-          <Image src="/placeholder.svg?height=30&width=40" alt="GSK" width={40} height={30} />
-          <Image src="/placeholder.svg?height=30&width=100" alt="Stanford" width={100} height={30} />
-          <Image src="/placeholder.svg?height=30&width=120" alt="Johns Hopkins University" width={120} height={30} />
-          <Image src="/placeholder.svg?height=30&width=80" alt="Reckitt" width={80} height={30} />
+        <div className="mt-12 flex gap-20 items-center">
+          <Image src={Placeholder2} alt="buildspace" width={120} height={30} />
+          <AvatarCirclesDemo />
         </div>
 
         <div className="mt-16 relative">
-          <div className='items-center justify-self-center  p-3 bg-[#ECECEC] rounded-[1.125rem]'>
+          <div className='items-center justify-self-center  p-3 bg-[#ECECEC] rounded-[1.125rem] border border-[#000000]/10'>
           <Image src={Placeholder} alt="neurios interface" width={1000} height={200} className="w-full rounded-lg " />
           </div>
         </div>

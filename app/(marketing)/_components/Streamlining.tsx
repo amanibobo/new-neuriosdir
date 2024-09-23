@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import Link from "next/link";
 import Placeholder from "@/public/image 21.png";
+import { AnimatedBeamDemo } from "./bigbeam";
 
 const WhyNeurios = () => {
   return (
@@ -24,9 +25,8 @@ const WhyNeurios = () => {
             <div className="not-prose flex items-center gap-2">
              
             </div>
-            <div className='items-center justify-self-center  p-3 bg-[#ECECEC] rounded-[1.125rem]'>
-            <Image src={Placeholder} width={1200} height={400} alt="wow" />
-            </div>
+            
+            <AnimatedBeamDemo />
           </div>
           
         </NavWidthWrapper>

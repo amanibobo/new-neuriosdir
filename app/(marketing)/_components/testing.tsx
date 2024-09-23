@@ -12,8 +12,8 @@ export default function ReusableCard({ title, description, imageSrc, imageAlt }:
   return (
     <div className="rounded-xl bg-[#F7F7F8]">
       <div className="p-5 pt-5 rounded-xl bg-[#F7F7F8] border border-[#000000]/10">
-        <div className="rounded-xl bg-[#FFFFFF] border border-[#000000]/10 overflow-hidden h-[34.375rem] ">
-          <Image src={imageSrc} width={464} height={200} alt={imageAlt} className=""/>
+        <div className="rounded-xl bg-[#FFFFFF] border border-[#000000]/10 overflow-hidden h-[34.375rem]">
+          <Image src={imageSrc} width={464} height={200} alt={imageAlt} className="mt-40"/>
         </div>
         <div className="mt-5 pb-4">
           <h1 className="font-semibold text-lg">{title}</h1>

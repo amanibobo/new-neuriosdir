@@ -1,6 +1,6 @@
 import svgToDataUri from "mini-svg-data-uri";
 import type { Config } from "tailwindcss";
-import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
+import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
 
 const config = {
   darkMode: ["class"],

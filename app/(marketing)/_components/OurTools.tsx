@@ -19,10 +19,10 @@ const OurToolss = () => {
         </div>
 
         <div className="md:grid-cols-2 grid gap-6">
-          <ReusableCard title="AI Resume Review" description="Stay ahead of the curve by tracking critical events impacting your deals in real-time. Our system ensures you never miss a purchasing signal and helps you spot trends and pain points before your competitors." imageSrc={Placeholder} imageAlt="bruh"/>
-          <ReusableCard title="Resume Tips & Templates" description="Stay ahead of the curve by tracking critical events impacting your deals in real-time. Our system ensures you never miss a purchasing signal and helps you spot trends and pain points before your competitors." imageSrc={Placeholder} imageAlt="bruh"/>
-          <ReusableCard title="Acceptance Stories" description="Stay ahead of the curve by tracking critical events impacting your deals in real-time. Our system ensures you never miss a purchasing signal and helps you spot trends and pain points before your competitors." imageSrc={Placeholder} imageAlt="bruh"/>
-          <ReusableCard title="Cold Outreach Tips & Templates" description="Stay ahead of the curve by tracking critical events impacting your deals in real-time. Our system ensures you never miss a purchasing signal and helps you spot trends and pain points before your competitors." imageSrc={Placeholder} imageAlt="bruh"/>
+          <ReusableCard title="AI Resume Review" description="Leverage AI to receive instant feedback on your resume, helping you identify strengths and areas for improvement. Ensure your resume aligns with industry standards and increases your chances of catching a recruiter&#39;s eye." imageSrc={Placeholder} imageAlt="bruh"/>
+          <ReusableCard title="Resume Tips & Templates" description="Access a collection of expert-crafted resume tips and customizable templates designed specifically for high school students. These resources guide users in creating professional resumes that effectively showcase their skills and experiences." imageSrc={Placeholder} imageAlt="bruh"/>
+          <ReusableCard title="Acceptance Stories" description="Explore inspiring acceptance stories from peers who successfully secured internships and extracurricular opportunities. These narratives provide motivation and practical insights into the application process, helping students understand what it takes to succeed." imageSrc={Placeholder} imageAlt="bruh"/>
+          <ReusableCard title="Cold Outreach Tips & Templates" description="Master the art of networking with our curated tips and templates for cold outreach emails. This feature equips students with the tools they need to confidently connect with professionals and organizations, increasing their chances of landing valuable opportunities." imageSrc={Placeholder} imageAlt="bruh"/>
         </div>
         {/*<div className="mt-16 relative grid grid-cols-1 md:grid-cols-2 gap-y-8">
         <div className="">
